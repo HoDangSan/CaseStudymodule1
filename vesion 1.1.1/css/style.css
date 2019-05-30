@@ -1,0 +1,17 @@
+#myCanvas {
+    border: 3px outset #d3d3d3;
+    background-color: lightsteelblue;
+    background-image: url(../image/bgcanvas.jpg);
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.bg {
+    width: 400px;
+    margin: auto;
+    border: 0;
+}
+
+body {
+    background-image: url(../image/backgrond.jpg);
+}
