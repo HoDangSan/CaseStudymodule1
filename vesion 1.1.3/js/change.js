@@ -240,6 +240,7 @@ function stuffAvailable() {
     }
 }
 
+
 function updateLever1() {
     // Audio lever 1
     soundLever1.volume = .1;
@@ -253,9 +254,7 @@ function updateLever1() {
     }
     // cứ sau 1s sẽ tạo ra lượt bóng
     if (countTime % 20 === 0) {
-        for (let i = 0; i < (Math.floor(Math.random() * numberBall) + 1); i++) {
-            arrBall.push(new Ball(widthBall, heightBall, speedBall, heartBall));
-        }
+        arrBall.push(new Ball(widthBall, heightBall, speedBall, heartBall));
     }
     // sau 30s bóng sẽ to hơn nhiều hơn
     if (countTime === 600) {

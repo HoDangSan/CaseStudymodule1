@@ -1,5 +1,5 @@
-let imgBall = new Image(25, 50);
-imgBall.src = "image/ball.png";
+let imgBossLever1 = new Image(25, 50);
+imgBossLever1.src = "image/ball.png";
 
 class Ball {
     constructor(width, height, speed, heartBall) {
@@ -13,7 +13,7 @@ class Ball {
     }
 
     drawBall() {
-        this.context.drawImage(imgBall, this.x, this.y, this.width, this.height);
+        this.context.drawImage(imgBossLever1, this.x, this.y, this.width, this.height);
     }
 
     ballMove() {
