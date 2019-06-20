@@ -1,5 +1,5 @@
 let imgBullet = new Image(10, 10);
-imgBullet.src = "image/meteorites_1.png";
+imgBullet.src = "image/bullet.png";
 
 class Bullet {
     constructor(x, y) {
